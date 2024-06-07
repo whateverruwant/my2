@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "11";
+    src: url(../fonts/arial_black.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "22";
+    src: url(../fonts/Cannonade.ttf);
+    font-weight: 400;
+    font-style: normal;
+}

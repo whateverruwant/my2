@@ -1,0 +1,400 @@
+@import url(./font.css);
+*{
+    box-sizing: border-box;   
+   
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.header .container .opisanie ul a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "22";
+}
+.header .container .img-thumbnail {
+
+    background-color: #181818;
+    border: transparent;
+}
+.header .container {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 2%;
+    padding: 1%;
+}
+.header .container .photo img{
+    width: 250px;
+    height: 250px;
+}
+.header .container .about  h5{
+    color: aliceblue;
+
+    font-family: "22";
+}
+.header .container .about  p{
+    color: aliceblue;
+    font-family: "22";
+}
+.header .container .about .title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 450px;
+}
+.header .container .name h1{
+    color: aliceblue;
+}.header .container .name h1 {
+   font-size: 70px;
+   font-family: "11";
+}
+.header .container .name  {
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+#photo{
+    border-radius: 4%;
+}
+.skills .container .card p{
+    color: black;
+}
+.skills .container{
+    padding: 6%;
+    row-gap: 35px;
+}
+.skills .container .card {
+    
+    border: solid 3px;
+}
+.skills .container h2{
+    font-family: "11";
+}
+.skills .container h5{
+    font-family: "22";
+}
+.port .container{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 2%;
+    padding: 2%;
+}
+.port .container .title h1{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    font-family: "11";
+}
+.port .container .carousel-inner img{
+    height: 380px;
+    width: 550px;
+    margin-left: 280px;
+    border-radius: 2%;
+    margin-top: 30px;
+}
+.port .container .btn{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.port .container .btn button{
+    font-family: "22";
+}
+.header .container .card{
+    margin-top: -200px;
+}
+.header .container .card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 1.5rem;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: rgb(0 0 0);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 075rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    border: solid 4px;
+    border-radius: 4%;
+    height: 5%;
+    background-color: rgb(0, 0, 0);
+    border: transparent;
+    
+}
+.header .container .card h5,p{
+    color: aliceblue;
+}
+.img-thumbnail {
+  
+    max-width: 100%;
+    height: auto;
+}
+.cell .container p{
+    color: black;
+}
+.car .container .opis p{
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+.car .container .title{
+    justify-content: center;
+    display: flex;
+}
+.car .container .title h1{
+    font-family: "11";
+}
+.car .container{
+    padding: 6%;
+}
+
+#photo2{
+    border: transparent;
+}
+
+.car .container img {
+    width: 350px;
+    height: 350px;
+
+}
+.car .container .card {
+    --bs-card-border-width: 0rem;
+    border-radius: 5%;
+}
+.car .container .card h5{
+    color: black;
+    font-size: 20px;
+    font-family: "22";
+}
+.car .container .card p{
+    margin-top: -280px;
+}
+.fio .container2{
+    
+}
+.header .container .name{
+    background-image: linear-gradient(30deg, #9e0e0e,#fffcfc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    position: relative;
+    font-family: "11";
+}
+.fio .container h2{
+    font-family: "11";
+}
+.fio .container2 label{
+    font-family: "22";
+}
+.fio .container2 button{
+    font-family: "22";
+}
+.footer a{
+    font-family: "22";
+    color: #fffcfc;
+}
+.footer -fluid .nav-link p{
+    font-family: "22";
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+}
+.btn {
+
+    --bs-btn-border-color: black;
+
+}
+footer .btn {
+
+    --bs-btn-border-color: rgb(255, 255, 255);
+    --bs-btn-color: #ffffff;
+}
+
+@media (max-width: 1024px) {}
+    .container{
+        width: 940px !important ;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .port .container .carousel-inner img{
+        height: 300px;
+        width: 550px;
+        margin-left: 240px;
+    }
+    .car .container .card2{
+        margin-left: -50px;
+    }
+    .fio .container2{
+        margin-left: 320px;
+    }
+    .fio .container2 .form-check label{
+        font-size: 12px;
+    }
+    .footer .social-icons a{
+        color: #fffcfc;
+    }
+    @media (max-width: 992px) {
+        .container{
+            width: 720px !important ;
+            margin: 0 auto;
+            padding: 0px;
+        }
+    .cell .container .cell2 {
+    display: grid; 
+    grid-template-rows: repeat(2, 274px); 
+    grid-template-columns: repeat(1, 277px); 
+    grid-column-gap: 32px; 
+    grid-row-gap: 32px; 
+    margin-left: 7%;
+    margin-top: 8%;
+        }
+    }
+    @media (max-width: 834px) {
+        .container{
+            width: 720px !important ;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .header .container .about{
+            margin-left: 150px;
+        }
+        .port .container .carousel-inner{
+            margin-left: -90px;
+        }
+        .port .container .carousel-inner img{
+            height: 250px;
+            width: 600px;
+            margin-left: 280px;
+            border-radius: 2%;
+            margin-top: 30px;
+        }
+        .fio .container2{
+            margin-left: 220px;
+        }
+    }
+    @media (max-width: 768px) {
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .port .container .carousel-inner img{
+            height: 230px;
+            width: 600px;
+            margin-left: 280px;
+            border-radius: 2%;
+            margin-top: 30px;
+        }
+    }
+    @media (max-width: 320px) {
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .header .container .photo img{
+            width: 200px;
+            height: 200px;
+        }
+        .header .container .about .card{
+            display: flex;
+            flex-direction: column;
+           margin-left: -580px;
+        }
+        .header .container .card{
+            margin-top: 50px;
+        }
+        .header .container .name  {
+            margin-top: 50px;
+            margin-left: 0px;
+            
+        }
+        .header .container .name h1{
+            font-size: 27px;
+        }
+        .header .container{
+            width: 320px;
+            
+        }
+       .skills .container h2{
+        display: flex;
+        font-size: 20px;   
+        
+     }
+     .skills .container .card{
+        width: 150px;
+        margin-left: 60px;
+        
+     }
+     .port .container .carousel-inner{
+        display: flex;
+     }
+     .port .container .title{
+        display: flex;
+     }
+     .car .container .card img{
+        width: 200px;
+        height: 200px;
+     }
+     .car .container .title{
+        margin-left: -400px;
+     }
+     .car .container .card h5{
+        font-size: 16px;
+        width: 200px;
+     }
+     .fio .container{
+        display: flex;
+        width: 100px;
+     }
+     .fio .container h2{
+        margin-left: 20px;
+     }
+     .fio .container2{
+        margin-left: -200px;
+        margin-top: 100px;
+     }
+     .fio .container2 input{
+        width: 150px;
+     }
+     .fio .container2 .btn{
+        margin-left: 0px;
+        width: 140px;
+     }
+     .fio .container2 .form-check input{
+        width: 10px;
+     }
+     .fio .container2 .form-check label{
+        width: 70px;
+     }
+    
+    }
